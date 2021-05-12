@@ -23,4 +23,4 @@ Make a request to get integers from `ApiService` asynchronously, the UI window i
 - Get Integers Async Parallel Button:
 Make a request to get integers from `ApiService` asynchronously, the UI window is not blocked by the operations and despite how many results count is, it waits 1 only second.
 
-Test Button: Its purpose is to test wheter the UI is freezing or not.
+- Test Button: Its purpose is to test wheter the UI is freezing or not.
