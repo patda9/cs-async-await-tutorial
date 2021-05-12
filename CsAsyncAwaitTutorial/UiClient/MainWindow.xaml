@@ -1,0 +1,15 @@
+﻿<Window x:Class="UiClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UiClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1440">
+    <Grid>
+        <Button Name="rngButton" Click="RngButton_Click" Width="96" Height="24" Margin="368,134,368,176">Get Integers</Button>
+        <Button Name="rngAsyncButton" Click="RngAsyncButton_Click" Width="128" Height="24" Margin="368,214,368,176">Get Integers Async</Button>
+        <Button Name="rngAsyncParallelButton" Click="RngAsyncParallelButton_Click" Width="192" Height="24" Margin="368,294,368,176">Get Integers Async Parallel</Button>
+        <Button Name="testButton" Click="TestButton_Click" Width="64" Height="24" Margin="368,374,368,176">Test</Button>
+    </Grid>
+</Window>
